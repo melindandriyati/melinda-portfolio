@@ -54,6 +54,9 @@
   if (!(isset($_POST['message']))) {
     exit("Invalid message!");
   }
+  if (!(isset($_POST['first_name']))) {
+    exit("This is spam!");
+  }
   
   $name = filter_input(INPUT_POST, 'name', FILTER_SANITIZE_SPECIAL_CHARS);
   $from = filter_input(INPUT_POST, 'email', FILTER_SANITIZE_EMAIL);
