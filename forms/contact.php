@@ -54,7 +54,7 @@
   if (!(isset($_POST['message']))) {
     exit("Invalid message!");
   }
-  if (!(isset($_POST['first_name']))) {
+  if ((isset($_POST['first_name']))) {
     exit("This is spam!");
   }
   
@@ -66,11 +66,11 @@
   if (filter_var($from, FILTER_VALIDATE_EMAIL)) {
       $headers = "From: ".$from;
 
-      mail($to, $subject, $message."\r\n\r\nfrom: ".$from, $headers);
-      die('OK');
+      mail($to, $subject, $message, $headers);
+      echo('OK');
       
   } else {
-      die('Invalid address');
+      exit('Invalid address');
   }
 
 ?>
