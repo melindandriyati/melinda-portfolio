@@ -90,7 +90,7 @@ if (ParseURL.searchParams.get('project_name')) {
         <div class="portfolio-description">
           <h2>HiRA</h2>
           <p>
-            Telkom Indonesia has more than 11 thousand employees spreadout throughout Indonesia. More than 3 thousand of them was placed in Telkom Regional division to carry out tasks in each region. Therefore, HiRA emerged as an innovation to assists Human Capital in carrying out routine operational tasks. These routine activities were done daily or weekly, such as employee dashboard for reporting, simulation for employee promotion and mutation, as well as employee reminder.
+            Telkom Indonesia has more than 11 thousand employees spreadout throughout Indonesia. More than 3 thousand of them was placed in Telkom Regional division to carry out tasks in each region. Therefore, HiRA emerged as an innovation to assists Human Capital caarry out their routine operational tasks. These routine activities were done daily or weekly, such as employee dashboard for reporting, simulation for employee promotion and mutation, as well as employee reminder.
           </p>
         </div>
       </div>
