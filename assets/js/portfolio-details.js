@@ -1,5 +1,7 @@
 const CurrentURL = window.location.href;
 const ParseURL = new URL(CurrentURL);
+// BMKG adalah instansi pemerintah yang melaksanakan tugas pemerintahan di bidang meteorologi, klimatologi, dan geofisika. Oleh karena itu, BMKG harus memiliki dashboard dan kaleidoskop yang up-to-date sesuai dengan data cuaca terbaru. Saat melakukan prakiraan cuaca, salah satu informasi yang digunakan adalah trend cuaca 30 tahun terakhir. Sehingga BMKG Balikpapan memutuskan untuk membantu penyelesaian pekerjaan dengan cara membangun website ini.
+// Telkom Indonesia memiliki lebih dari 11 ribu karyawan yang tersebar di seluruh Indonesia. Lebih dari 3 ribu diantaranya bertugas di divisi Regional untuk melaksanakan tugas di tiap daerah. Oleh karena itu, HiRA muncul sebagai inovasi untuk membantu Human Capital dalam melaksanakan tugas operasional yang rutin dilakukan. Kegiatan rutin ini dilakukan setiap bulan maupun setiap hari, seperti dashboard karyawan untuk pelaporan, pemerataan jumlah karyawan tiap unit, simulasi promosi dan mutasi, serta reminder.
 var content;
 if (ParseURL.searchParams.get('project_name')) {
   console.log(ParseURL.searchParams.get('project_name'))
@@ -35,7 +37,7 @@ if (ParseURL.searchParams.get('project_name')) {
         <div class="portfolio-description">
           <h2>Kaleidoskop BMKG Balikpapan</h2>
           <p>
-            BMKG adalah instansi pemerintah yang melaksanakan tugas pemerintahan di bidang meteorologi, klimatologi, dan geofisika. Oleh karena itu, BMKG harus memiliki dashboard dan kaleidoskop yang up-to-date sesuai dengan data cuaca terbaru. Saat melakukan prakiraan cuaca, salah satu informasi yang digunakan adalah trend cuaca 30 tahun terakhir. Sehingga BMKG Balikpapan memutuskan untuk membantu penyelesaian pekerjaan dengan cara membangun website ini. 
+            BMKG is a government organization who carries out government dutiesin the fields of meteorology, climatology, and geophysics. To complete it's duties, BMKG must have an up-to-date dashboard and caleidoscope according to the latest weather data. In other hand, weather forecasting also use weather trend which used data that has been gathered in the recent 30 years span.  
           </p>
         </div>
       </div>
@@ -71,14 +73,6 @@ if (ParseURL.searchParams.get('project_name')) {
             <div class="swiper-slide">
               <img src="assets/img/portfolio/hira6.png" alt="">
             </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/hira7.png" alt="">
-            </div>
-
-            <div class="swiper-slide">
-              <img src="assets/img/portfolio/hira8.png" alt="">
-            </div>
           </div>
           <div class="swiper-pagination"></div>
         </div>
@@ -96,7 +90,7 @@ if (ParseURL.searchParams.get('project_name')) {
         <div class="portfolio-description">
           <h2>HiRA</h2>
           <p>
-            Telkom Indonesia memiliki lebihg dari 11 ribu karyawan yang tersebar di seluruh Indonesia. Lebih dari 3 ribu diantaranya bertugas di divisi Regional untuk melaksanakan tugas di tiap daerah. Oleh karena itu, HiRA muncul sebagai inovasi untuk membantu Human Capital dalam melaksanakan tugas operasional yang rutin dilakukan. Kegiatan rutin ini dilakukan setiap bulan maupun setiap hari, seperti dashboard karyawan untuk pelaporan, pemerataan jumlah karyawan tiap unit, simulasi promosi dan mutasi, serta reminder absensi.
+            Telkom Indonesia has more than 11 thousand employees spreadout throughout Indonesia. More than 3 thousand of them was placed in Telkom Regional division to carry out tasks in each region. Therefore, HiRA emerged as an innovation to assists Human Capital in carrying out routine operational tasks. These routine activities were done daily or weekly, such as employee dashboard for reporting, simulation for employee promotion and mutation, as well as employee reminder.
           </p>
         </div>
       </div>
