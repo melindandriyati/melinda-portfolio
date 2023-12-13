@@ -37,7 +37,7 @@ if (ParseURL.searchParams.get('project_name')) {
         <div class="portfolio-description">
           <h2>Kaleidoskop BMKG Balikpapan</h2>
           <p>
-            BMKG is a government organization who carries out government dutiesin the fields of meteorology, climatology, and geophysics. To complete it's duties, BMKG must have an up-to-date dashboard and caleidoscope according to the latest weather data. In other hand, weather forecasting also use weather trend which used data that has been gathered in the recent 30 years span.  
+            BMKG is a government organization who carries out government duties in the fields of meteorology, climatology, and geophysics. To complete their duties, BMKG must have an up-to-date dashboard and caleidoscope according to the latest weather data. In the other hand, weather forecasting also use weather trend which used data that has been gathered in the recent 30 years span.  
           </p>
         </div>
       </div>
@@ -90,7 +90,7 @@ if (ParseURL.searchParams.get('project_name')) {
         <div class="portfolio-description">
           <h2>HiRA</h2>
           <p>
-            Telkom Indonesia has more than 11 thousand employees spreadout throughout Indonesia. More than 3 thousand of them was placed in Telkom Regional division to carry out tasks in each region. Therefore, HiRA emerged as an innovation to assists Human Capital caarry out their routine operational tasks. These routine activities were done daily or weekly, such as employee dashboard for reporting, simulation for employee promotion and mutation, as well as employee reminder.
+            Telkom Indonesia has more than 11 thousand employees spreadout throughout Indonesia. More than 3 thousand of them was placed in Telkom Regional division to carry out tasks in each region. Therefore, HiRA emerged as an innovation to assists Human Capital carry out their routine operational tasks. These routine activities were done daily or weekly, such as employee dashboard for reporting, simulation for employee promotion and mutation, as well as employee reminder.
           </p>
         </div>
       </div>
